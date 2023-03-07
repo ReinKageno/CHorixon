@@ -1,0 +1,40 @@
+{
+    "type": "GenericCrafter",
+    "size": 3,
+    "hasPower": false,
+    "health": 250,
+    "description": "[[#16F140]Combining two beryllium to produce Toxic Crystal",
+    
+    "craftTime": 30,
+    "itemCapacity": 20,
+    "consumes":{
+        "items": {
+            "items": [
+                {"item":"beryllium","amount":2}
+            ]
+        }
+    },
+
+    "requirements": [
+        {"item":"beryllium","amount":20}
+    ],
+    "category": "crafting",
+    "outputItem": {"item":"toxic-crystal","amount":1},
+    "research": {
+        "parent": "core-bastion",
+        "requirements": []
+    },
+
+    "drawer": {
+        "drawType": "DrawMulti",
+            "drawers": [
+                {
+                    "type": "DrawDefault"
+                },
+                {
+                    "type": "DrawFlame",
+                    "suffix": "-top"
+                }
+            ]
+    }
+}

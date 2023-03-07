@@ -1,0 +1,21 @@
+{
+    "type": "Conveyor",
+    "health": 20,
+    "speed": 30,
+    "displayedSpeed":10,
+    "requirements": [
+        {"item":"copper","amount":1},
+        {"item":"magnet","amount":4}
+    ],
+    
+    "hasShadow":false,
+
+    "research": {
+        "parent": "magnetic-conveyor",
+        "requirements":[
+            {"item":"magnet","amount":2700},
+            {"item":"toxic-crystal","amount":400}
+        ]
+    },
+    "category": "distribution"
+}

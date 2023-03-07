@@ -1,0 +1,11 @@
+{
+    "type": "PowerSource",
+    "powerProduction": 3,
+    "description": "Produce a little energy from the magnetic power produced from magnetic stones",
+    "requirements": [
+        {"item":"copper","amount":100},
+        {"item":"lead","amount":30},
+        {"item":"magnet","amount":160}
+    ],
+    "research": "toxic-burner"
+}

@@ -1,0 +1,32 @@
+{
+    "type": "GenericCrafter",
+    "hasLiquids": true,
+    "category": "crafting",
+    "craftTime": 20,
+    "hasPower": true,
+    "size": 2,
+    "health": 460,
+    
+    "consumes": {
+        "items": {
+            "items": [
+                {"item":"toxic-crystal","amount":1}
+            ]
+        },
+        "power": 0.5
+    },
+    "outputItem": {"item":"phase-fabric","amount":5},
+    "outputLiquid": {"liquid":"radioactive-liquid","amount":0.5},
+    "research": {
+        "parent": "item-replicator-thorium",
+        "requirements": [
+            {"item":"toxic-crystal","amount":100}
+        ]
+    },
+    
+    "ignoreLiquidFullness": true,
+
+    "requirements": [
+        {"item":"toxic-crystal","amount":50}
+    ]
+}

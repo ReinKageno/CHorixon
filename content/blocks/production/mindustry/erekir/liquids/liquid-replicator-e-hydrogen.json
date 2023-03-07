@@ -1,0 +1,24 @@
+{
+    "type": "GenericCrafter",
+    "category": "crafting",
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "ignoreLiquidFullness": true,
+    
+    "consumes":{
+        "power": 0.5
+    },
+    "outputLiquid": {"liquid":"hydrogen","amount":6},
+
+    "research": {
+        "parent": "liquid-replicator-e-water",
+        "requirements": [
+            {"item":"toxic-crystal","amount":70}
+        ]
+    },
+
+    "requirements": [
+        {"item":"toxic-crystal","amount":20}
+    ]
+}

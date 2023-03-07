@@ -1,0 +1,21 @@
+{
+    "type": "DecayGenerator",
+    "description": "Durable radiation-powered generator. Can handle explosions from radioactive - toxic.",
+    "health": 800,
+    "size": 3,
+    "powerProduction": 10,
+    "hasItems": true,
+    "itemCapacity": 10,
+    "itemDuration": 240,
+    "randomlyExplode": false,
+    "generateEffect": "smelt",
+    "heatColor": "66a8ff",
+    "minItemEfficiency": 0.75,
+    "requirements": [
+        {"item":"copper","amount":20},
+        {"item":"lead","amount":20},
+        {"item":"magnet","amount":70}
+    ],
+    "category": "power",
+    "research": "magnetic-forge"
+}

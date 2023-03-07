@@ -1,0 +1,41 @@
+{
+    "type": "GenericCrafter",
+    "size": 3,
+    "hasPower": false,
+    "health": 280,
+    "description": "[[#16F140]Combining copper and lead to produce Magnet",
+    
+    "craftTime": 45,
+    "itemCapacity": 10,
+    "consumes":{
+        "items": {
+            "items": [
+                {"item":"copper","amount":2},
+                {"item":"lead","amount":1}
+            ]
+        }
+    },
+
+    "requirements": [
+        {"item":"copper","amount":50}
+    ],
+    "category": "crafting",
+    "outputItem": {"item":"magnet","amount":1},
+    "research": {
+        "parent": "mechanical-drill",
+        "requirements": []
+    },
+
+    "drawer": {
+        "drawType": "DrawMulti",
+            "drawers": [
+                {
+                    "type": "DrawDefault"
+                },
+                {
+                    "type": "DrawFlame",
+                    "suffix": "-flame"
+                }
+            ]
+    }
+}

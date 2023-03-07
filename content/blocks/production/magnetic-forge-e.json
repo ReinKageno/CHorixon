@@ -1,0 +1,41 @@
+{
+    "type": "GenericCrafter",
+    "size": 3,
+    "hasPower": false,
+    "health": 280,
+    "description": "[[#16F140]Combining beryllium and silicon to produce Magnet",
+    
+    "craftTime": 45,
+    "itemCapacity": 10,
+    "consumes":{
+        "items": {
+            "items": [
+                {"item":"silicon","amount":2},
+                {"item":"beryllium","amount":1}
+            ]
+        }
+    },
+
+    "requirements": [
+        {"item":"beryllium","amount":30}
+    ],
+    "category": "crafting",
+    "outputItem": {"item":"magnet","amount":1},
+    "research": {
+        "parent": "mechanical-drill",
+        "requirements": []
+    },
+
+    "drawer": {
+        "drawType": "DrawMulti",
+            "drawers": [
+                {
+                    "type": "DrawDefault"
+                },
+                {
+                    "type": "DrawFlame",
+                    "suffix": "-flame"
+                }
+            ]
+    }
+}
